@@ -1,4 +1,4 @@
-var = 1  # 正の整数を代入（必要に応じて変更）
+var = 15  # 正の整数を代入（必要に応じて変更）
 
 if var % 3 == 0 and var % 5 == 0:
     print("FizzBuzz")
@@ -8,3 +8,4 @@ elif var % 5 == 0:
     print("Buzz")
 else:
     print(var)
+
