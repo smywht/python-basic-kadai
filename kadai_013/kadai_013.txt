@@ -1,0 +1,5 @@
+def calc_tax_included(price, tax_percent):
+    return price * (1 + tax_percent / 100)
+
+result = calc_tax_included(110, 10)
+print(result)
